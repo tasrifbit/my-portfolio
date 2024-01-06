@@ -94,6 +94,10 @@ nav a {
 }
 
 /* MAin section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About section styles */
 .about {
@@ -117,4 +121,8 @@ nav a {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
