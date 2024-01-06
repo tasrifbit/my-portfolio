@@ -1,55 +1,120 @@
 /* Common Shared styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #3d3bbb;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #3d3bbb;
     border: 0;
     padding: 18px 35px;
     color: var(--White-Color, #FFF);
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: var(--Dark-01, #181818);
 
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* Header Style */
-.header{
-background-color: #e6e5f1;
+.header {
+    background-color: #e6e5f1;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-content: center;
+    justify-content: space-between;
 }
-.banner .img{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .img {
     width: 500px;
+}
+
+.banner-greet {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* MAin section style */
+
+/* About section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #dfdee6;
+    margin: 130px 0px;
+}
+
+.title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
